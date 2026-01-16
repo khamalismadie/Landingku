@@ -653,7 +653,7 @@ function App() {
               <div className="cta-card">
                 <h3>Ready to work together?</h3>
                 <p>Let's create something amazing</p>
-                <a href="mailto:contact@khamalismadie.com" className="btn btn-primary">
+                <a href="mailto:ismadiepro@gmail.com" className="btn btn-primary">
                   <span>Send Email</span>
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" strokeWidth="2"
