@@ -58,3 +58,7 @@ coverage/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Agent and Shared Data
+.agent/workflows
+.shared/ui-ux-pro-max/data
