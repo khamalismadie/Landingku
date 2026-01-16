@@ -5,9 +5,6 @@ Ini adalah repositori untuk website portofolio saya. Website ini dibangun menggu
 ## 🌐 Live Demo
 Akses website langsung di: **[https://landingku-one.vercel.app/](https://landingku-one.vercel.app/)**
 
-![Portfolio Preview](screenshot_placeholder.png)
-*(Tampilan website: [landingku-one.vercel.app](https://landingku-one.vercel.app/))*
-
 ## 🚀 Fitur Utama
 
 -   **Desain Modern & Responsif**: Tampilan yang estetis dan menyesuaikan dengan berbagai ukuran layar.
