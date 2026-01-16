@@ -62,3 +62,4 @@ Desktop.ini
 # Agent and Shared Data
 .agent/workflows
 .shared/ui-ux-pro-max/data
+.shared/ui-ux-pro-max/scripts
