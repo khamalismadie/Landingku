@@ -1,2 +1,60 @@
-.agent/
-.shared/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build Output
+dist
+dist-ssr
+build
+*.local
+
+# Environment Variables (Security)
+.env
+.env.test
+.env.production
+.env.development
+.env.local
+.env.*.local
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security / Credentials
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+known_hosts
+.ssh/
+
+# Testing
+coverage/
+.nyc_output/
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
