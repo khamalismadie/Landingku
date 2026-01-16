@@ -1,16 +1,73 @@
-# React + Vite
+# Portfolio Khamal Ismadie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah repositori untuk website portofolio saya. Website ini dibangun menggunakan teknologi web modern untuk menampilkan keahlian, pengalaman, dan proyek-proyek profesional.
 
-Currently, two official plugins are available:
+![Portfolio Preview](screenshot_placeholder.png)
+*(Note: Anda dapat mengganti placeholder ini dengan screenshot aplikasi Anda)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Utama
 
-## React Compiler
+-   **Desain Modern & Responsif**: Tampilan yang estetis dan menyesuaikan dengan berbagai ukuran layar.
+-   **Animasi Neural Network**: Efek visual latar belakang interaktif menggunakan HTML5 Canvas.
+-   **Navigasi Lancar**: Scroll yang halus antar bagian (Home, About, Experience, Skills, Contact).
+-   **Efek Parallax**: Elemen visual yang bergerak dinamis mengikuti kursor.
+-   **Transisi Elemen**: Animasi fade-in saat elemen muncul di layar (Intersection Observer).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Teknologi yang Digunakan
 
-## Expanding the ESLint configuration
+Project ini dibangun dengan stack berikut:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **[React](https://react.dev/)**: Library JavaScript untuk membangun antarmuka pengguna.
+-   **[Vite](https://vitejs.dev/)**: Build tool yang cepat untuk pengembangan frontend modern.
+-   **CSS3**: Styling modern dengan variabel CSS, Flexbox, dan Grid tanpa framework CSS berat (Vanilla CSS).
+-   **HTML5 Canvas**: Untuk membuat animasi jaringan syaraf tiruan di bagian hero.
+
+## 📂 Struktur Folder
+
+```
+Landingku/
+├── public/          # Aset statis
+├── src/
+│   ├── assets/      # Gambar, font, dll
+│   ├── App.jsx      # Komponen utama aplikasi
+│   ├── index.css    # Global styling
+│   └── main.jsx     # Entry point React
+├── index.html       # HTML utama
+└── package.json     # Daftar dependensi dan script
+```
+
+## 📦 Cara Menjalankan (Pengembangan Lokal)
+
+Ikuti langkah-langkah ini untuk menjalankan proyek di komputer Anda:
+
+1.  **Clone repositori ini:**
+    ```bash
+    git clone https://github.com/username-anda/Landingku.git
+    cd Landingku
+    ```
+
+2.  **Install dependensi:**
+    Pastikan Anda sudah menginstall [Node.js](https://nodejs.org/).
+    ```bash
+    npm install
+    ```
+
+3.  **Jalankan server pengembangan:**
+    ```bash
+    npm run dev
+    ```
+    Buka `http://localhost:5173` (atau port yang tertera) di browser Anda.
+
+4.  **Build untuk produksi:**
+    ```bash
+    npm run build
+    ```
+
+## 📄 Lisensi
+
+Project ini dilisensikan di bawah [MIT License](LICENSE).
+
+---
+
+**Khamal Ismadie**
+*Tech & AI Enthusiast | Vibe Coder*
