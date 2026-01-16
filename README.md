@@ -2,8 +2,11 @@
 
 Ini adalah repositori untuk website portofolio saya. Website ini dibangun menggunakan teknologi web modern untuk menampilkan keahlian, pengalaman, dan proyek-proyek profesional.
 
+## 🌐 Live Demo
+Akses website langsung di: **[https://landingku-one.vercel.app/](https://landingku-one.vercel.app/)**
+
 ![Portfolio Preview](screenshot_placeholder.png)
-*(Note: Anda dapat mengganti placeholder ini dengan screenshot aplikasi Anda)*
+*(Tampilan website: [landingku-one.vercel.app](https://landingku-one.vercel.app/))*
 
 ## 🚀 Fitur Utama
 
@@ -42,7 +45,7 @@ Ikuti langkah-langkah ini untuk menjalankan proyek di komputer Anda:
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone https://github.com/username-anda/Landingku.git
+    git clone https://github.com/khamalismadie/Landingku.git
     cd Landingku
     ```
 
