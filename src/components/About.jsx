@@ -1,3 +1,11 @@
+import { BotIcon, ZapIcon, CloudIcon } from './icons'
+
+const highlights = [
+  { icon: BotIcon, title: 'AI & SaaS', text: 'Building AI-powered SaaS applications and workflow automation' },
+  { icon: ZapIcon, title: 'Fast Shipping', text: 'Shipping fast, production-ready Next.js applications' },
+  { icon: CloudIcon, title: 'Scalable Systems', text: 'Architecting scalable full-stack systems' },
+]
+
 export default function About() {
   return (
     <section className="about" id="about">
@@ -18,27 +26,15 @@ export default function About() {
               contract, and freelance opportunities. Based in Indonesia, available for remote work worldwide.
             </p>
             <div className="about-highlights">
-              <div className="highlight-item">
-                <div className="highlight-icon">🤖</div>
-                <div className="highlight-content">
-                  <h3>AI & SaaS</h3>
-                  <p>Building AI-powered SaaS applications and workflow automation</p>
+              {highlights.map(({ icon: Icon, title, text }) => (
+                <div key={title} className="highlight-item">
+                  <div className="highlight-icon"><Icon /></div>
+                  <div className="highlight-content">
+                    <h3>{title}</h3>
+                    <p>{text}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="highlight-item">
-                <div className="highlight-icon">⚡</div>
-                <div className="highlight-content">
-                  <h3>Fast Shipping</h3>
-                  <p>Shipping fast, production-ready Next.js applications</p>
-                </div>
-              </div>
-              <div className="highlight-item">
-                <div className="highlight-icon">☁️</div>
-                <div className="highlight-content">
-                  <h3>Scalable Systems</h3>
-                  <p>Architecting scalable full-stack systems</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
           <div className="about-info">

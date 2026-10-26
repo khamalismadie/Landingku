@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScroll = window.pageYOffset
+      const currentScroll = window.scrollY
       const sections = ['home', 'about', 'experience', 'skills', 'projects', 'services', 'contact']
 
       for (const sectionId of sections) {
@@ -37,9 +37,9 @@ function App() {
   const scrollToSection = useCallback((id) => {
     const target = document.getElementById(id)
     if (target) {
-      const offsetTop = target.offsetTop - 80
+      const navHeight = document.querySelector('.nav')?.offsetHeight ?? 72
       window.scrollTo({
-        top: offsetTop,
+        top: target.offsetTop - navHeight,
         behavior: 'smooth'
       })
     }
